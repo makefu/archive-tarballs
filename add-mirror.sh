@@ -5,7 +5,7 @@
 set -euf
 . $(command -v slog.sh)
 
-if test ! -e $HOME/.config/ia.conf ;then
+if test ! -e $HOME/.config/ia.ini ;then
   error "please run 'ia configure' first"
   exit 1
 fi
